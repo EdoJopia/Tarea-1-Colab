@@ -1,0 +1,104 @@
+Tarea 1: Seleccionar al menos dos conjuntos de datos abiertos que NO estén en formato RDF y transformar dichos datos a formato RDF. En el anexo se incluye una lista con algunas fuentes de datos abiertos posibles, pero los estudiantes pueden elegir cualquier otra fuente de datos.
+Opcional 1: Seleccionar datos que en formato original estén en formatos diferentes, como puede ser: unos datos en CSV y otros en JSON, XML, etc.
+
+# Instalación de librerías necesarias
+!pip install rdflib pandas
+
+import pandas as pd
+from rdflib import Graph, Namespace, URIRef, Literal
+from rdflib.namespace import RDF, RDFS
+
+import io
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Ruta al archivo en Google Drive
+csv_file_path = '/content/drive/MyDrive/Colab Notebooks/Datos abiertos/empleos_turisticos_region_de_valparaiso.csv'
+
+# Cargar el archivo CSV
+df = pd.read_csv(csv_file_path, encoding='latin1', delimiter=';')
+
+# Mostrar las primeras filas para verificar el contenido
+print("Primeras filas del dataset:")
+print(df.head())
+
+# Generar un resumen estadístico del dataset
+print("\nResumen del dataset:")
+df_summary = df.describe(include='all')  # Incluye estadísticas para todas las columnas
+print(df_summary)
+
+# Selección de columnas clave
+columns_to_use = ['Actividad', 'A1', 'A2_1']  # Asegúrate de que estas columnas existan en el archivo
+df_selected = df[columns_to_use].dropna()
+
+# Validar si las columnas existen en el dataset
+for col in columns_to_use:
+    if col not in df.columns:
+        print(f"La columna '{col}' NO existe en el dataset.")
+    else:
+        print(f"La columna '{col}' existe en el dataset.")
+
+# Crear un gráfico RDF
+g = Graph()
+print(g)
+
+¿Por qué usamos namespaces en RDF?
+Los namespaces en RDF sirven para identificar de manera única recursos y propiedades dentro de un modelo semántico. Nos permiten reutilizar vocabularios estándar y definir nuestros propios términos para evitar conflictos de nombres.
+
+Namespaces usados:
+EX (http://example.org/empleos/):
+
+Define recursos específicos del dominio, como actividades turísticas.
+Ejemplo: http://example.org/empleos/actividad/1.
+SCHEMA (http://schema.org/):
+
+##Un vocabulario estándar ampliamente utilizado para describir entidades como nombres, categorías, y ubicaciones.
+#    Propiedades usadas:
+#      schema:name: Nombre de la actividad.
+#        schema:category: Categoría o tipo de actividad.
+#        schema:location: Ubicación o región
+
+# Crear un gráfico RDF en memoria
+g = Graph()
+
+# Cargar el archivo Turtle generado
+g.parse(output_file, format="turtle")
+
+# Ejemplo de consulta SPARQL: Obtener todas las actividades
+query_1 = """
+    SELECT ?actividad ?name ?category ?location
+    WHERE {
+        ?actividad a <http://schema.org/Thing> .
+        ?actividad <http://schema.org/name> ?name .
+        ?actividad <http://schema.org/category> ?category .
+        ?actividad <http://schema.org/location> ?location .
+    }
+"""
+
+# Ejecutar la consulta
+results_1 = g.query(query_1)
+
+# Mostrar los resultados
+for row in results_1:
+    print(f"Actividad: {row['actividad']}, Nombre: {row['name']}, Categoría: {row['category']}, Ubicación: {row['location']}")
+
+# Transformar filas del dataset a triples RDF
+for index, row in df_selected.iterrows():
+    actividad_uri = URIRef(EX[f"actividad/{index}"])
+    g.add((actividad_uri, RDF.type, SCHEMA.Thing))
+    g.add((actividad_uri, SCHEMA.name, Literal(row['A2_1'])))
+    g.add((actividad_uri, SCHEMA.category, Literal(row['Actividad'])))
+    g.add((actividad_uri, SCHEMA.location, Literal(row['A1'])))
+
+# Mostrar un ejemplo de los triples generados en formato Turtle
+example_output = g.serialize(format="turtle") # Remove .decode("utf-8")
+# Mostrar las primeras líneas
+print("\n".join(example_output.splitlines()[:20]))
+
+# Guardar el gráfico RDF en un archivo Turtle en Google Drive
+output_file = '/content/drive/My Drive/empleos_turisticos.ttl'  # Cambia esta ruta si prefieres otro lugar
+g.serialize(destination=output_file, format="turtle")
+print(f"Archivo RDF guardado en Google Drive como {output_file}.")
+
+# Mostrar un ejemplo de los triples generados
+print(g.serialize(format="turtle")) # Remove .decode("utf-8")
