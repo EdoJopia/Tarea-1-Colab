@@ -1,0 +1,206 @@
+# Instalación de librerías necesarias
+!pip install rdflib pandas
+
+import pandas as pd
+from rdflib import Graph, Namespace, URIRef, Literal
+from rdflib.namespace import RDF, RDFS
+
+import io
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Instalación de librerías necesarias
+!pip install rdflib pandas
+
+import pandas as pd
+from rdflib import Graph, Namespace, URIRef, Literal
+from rdflib.namespace import RDF, RDFS
+
+import io
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Ruta al archivo en Google Drive
+csv_file_path = '/content/drive/MyDrive/Colab Notebooks/Datos abiertos/empleos_turisticos_region_de_valparaiso.csv'
+
+# Cargar el archivo CSV 
+df = pd.read_csv(csv_file_path, encoding='latin1', delimiter=';') # Define df here by reading the CSV file
+
+# Selección de columnas clave
+columns_to_use = ['Actividad', 'A1', 'A2_1']  # Asegúrate de que estas columnas existan en el archivo
+df_selected = df[columns_to_use].dropna()
+
+# Validar si las columnas existen en el dataset
+for col in columns_to_use:
+    if col not in df.columns:
+        print(f"La columna '{col}' NO existe en el dataset.")
+    else:
+        print(f"La columna '{col}' existe en el dataset.")
+
+# Crear un gráfico RDF
+g = Graph()
+
+# Definir namespaces
+EX = Namespace("http://example.org/empleos/")
+SCHEMA = Namespace("http://schema.org/")
+g.bind("ex", EX)
+g.bind("schema", SCHEMA)
+
+# Transformar filas del dataset a triples RDF
+for index, row in df_selected.iterrows():
+    actividad_uri = URIRef(EX[f"actividad/{index}"])
+    g.add((actividad_uri, RDF.type, SCHEMA.Thing))
+    g.add((actividad_uri, SCHEMA.name, Literal(row['A2_1'])))
+    g.add((actividad_uri, SCHEMA.category, Literal(row['Actividad'])))
+    g.add((actividad_uri, SCHEMA.location, Literal(row['A1'])))
+
+# Guardar el gráfico RDF en un archivo Turtle en Google Drive
+output_file = '/content/drive/My Drive/empleos_turisticos.ttl'  # Cambia esta ruta si prefieres otro lugar
+g.serialize(destination=output_file, format="turtle")
+print(f"Archivo RDF guardado en Google Drive como {output_file}.")
+
+# Crear un gráfico RDF
+g = Graph()
+
+# Definir namespaces
+EX = Namespace("http://example.org/empleos/")
+SCHEMA = Namespace("http://schema.org/")
+g.bind("ex", EX)
+g.bind("schema", SCHEMA)
+
+# Transformar filas del dataset a triples RDF
+for index, row in df_selected.iterrows():
+    actividad_uri = URIRef(EX[f"actividad/{index}"])
+    g.add((actividad_uri, RDF.type, SCHEMA.Thing))
+    g.add((actividad_uri, SCHEMA.name, Literal(row['A2_1'])))
+    g.add((actividad_uri, SCHEMA.category, Literal(row['Actividad'])))
+    g.add((actividad_uri, SCHEMA.location, Literal(row['A1'])))
+
+# Guardar el gráfico RDF en un archivo Turtle en Google Drive
+output_file = '/content/drive/My Drive/empleos_turisticos.ttl'  # Cambia esta ruta si prefieres otro lugar
+g.serialize(destination=output_file, format="turtle")
+print(f"Archivo RDF guardado en Google Drive como {output_file}.")
+
+# Ejemplo de consulta SPARQL: Obtener todas las actividades
+query_1 = """
+    SELECT ?actividad ?name ?category ?location
+    WHERE {
+        ?actividad a <http://schema.org/Thing> .
+        ?actividad <http://schema.org/name> ?name .
+        ?actividad <http://schema.org/category> ?category .
+        ?actividad <http://schema.org/location> ?location .
+    }
+"""
+
+# Ejecutar la consulta
+results_1 = g.query(query_1)
+
+# Mostrar los resultados
+for row in results_1:
+    print(f"Actividad: {row['actividad']}, Nombre: {row['name']}, Categoría: {row['category']}, Ubicación: {row['location']}")
+
+
+# Instalación de librerías necesarias
+!pip install SPARQLWrapper  # Install SPARQLWrapper
+from SPARQLWrapper import SPARQLWrapper, JSON
+
+# Endpoint de Wikidata
+wikidata_endpoint = "https://query.wikidata.org/sparql"
+
+# ... (rest of your code) ...
+
+!pip install SPARQLWrapper  # Install the necessary library
+
+#vamos a hacer una consulta SPARQL que obtenga las actividades y las relacione con entidades de Wikidata, obteniendo las etiquetas correspondientes de esas entidades.
+
+from SPARQLWrapper import SPARQLWrapper, JSON
+
+# Endpoint de Wikidata
+wikidata_endpoint = "https://query.wikidata.org/sparql"
+
+# Consulta SPARQL federada combinando el dataset local con Wikidata
+query_federada = """
+    SELECT ?actividad ?name ?category ?location ?wikidata_label
+    WHERE {
+        ?actividad a <http://schema.org/Thing> .
+        ?actividad <http://schema.org/name> ?name .
+        ?actividad <http://schema.org/category> ?category .
+        ?actividad <http://schema.org/location> ?location .
+        
+        # Consulta federada a Wikidata para obtener información adicional
+        SERVICE <https://query.wikidata.org/sparql> {
+            ?item rdfs:label ?wikidata_label .
+            FILTER(LANG(?wikidata_label) = "en")
+            ?item wdt:P31 wd:Q5 .  # Buscar solo entidades de tipo humano
+        }
+    }
+"""
+
+# Configuración del endpoint SPARQL
+sparql = SPARQLWrapper(wikidata_endpoint)
+sparql.setQuery(query_federada)
+sparql.setReturnFormat(JSON)
+
+# Ejecutar la consulta
+results = sparql.query().convert()
+
+# Verificar que hay resultados
+if 'results' in results and 'bindings' in results['results']:
+    # Iterar sobre los resultados
+    for row in results["results"]["bindings"]:
+        # Acceder a cada variable de la consulta como en el código anterior
+        actividad = row['actividad']['value'] if 'actividad' in row else 'N/A'
+        name = row['name']['value'] if 'name' in row else 'N/A'
+        category = row['category']['value'] if 'category' in row else 'N/A'
+        location = row['location']['value'] if 'location' in row else 'N/A'
+        wikidata_label = row['wikidata_label']['value'] if 'wikidata_label' in row else 'N/A'
+        
+        # Imprimir los resultados como en el código anterior
+        print(f"Actividad: {actividad}, Nombre: {name}, Categoría: {category}, "
+              f"Ubicación: {location}, Wikidata Label: {wikidata_label}")
+else:
+    print("No se encontraron resultados en la consulta.")
+
+from SPARQLWrapper import SPARQLWrapper, JSON
+
+# Endpoint de Wikidata
+wikidata_endpoint = "https://query.wikidata.org/sparql"
+
+# Consulta SPARQL federada combinando el dataset local con Wikidata
+query_federada = """
+    SELECT ?actividad ?name ?category ?location ?wikidata_label
+    WHERE {
+        ?actividad a <http://schema.org/Thing> .
+        ?actividad <http://schema.org/name> ?name .
+        ?actividad <http://schema.org/category> ?category .
+        ?actividad <http://schema.org/location> ?location .
+        
+        # Consulta federada a Wikidata para obtener información adicional
+        SERVICE <https://query.wikidata.org/sparql> {
+            ?item rdfs:label ?wikidata_label .
+            FILTER(LANG(?wikidata_label) = "en")
+            ?item wdt:P31 wd:Q5 .  # Buscar solo entidades de tipo humano
+        }
+    }
+"""
+
+# Configuración del endpoint SPARQL
+sparql = SPARQLWrapper(wikidata_endpoint)
+sparql.setQuery(query_federada)
+sparql.setReturnFormat(JSON)
+
+# Ejecutar la consulta
+results = sparql.query().convert()
+
+# Imprimir la estructura completa de los resultados para diagnosticar
+print("Estructura completa de los resultados:")
+print(results)
+
+# Verificar si los resultados tienen la clave 'results' y 'bindings'
+if 'results' in results and 'bindings' in results['results']:
+    # Iterar sobre los resultados
+    for row in results["results"]["bindings"]:
+        # Imprimir cada fila de resultados para ver cómo están estructurados
+        print(row)  # Imprime cada fila de resultados para su inspección
+else:
+    print("No se encontraron resultados en la consulta.")
