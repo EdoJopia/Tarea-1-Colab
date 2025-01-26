@@ -1,0 +1,1953 @@
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/empleos/actividad/0> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS" .
+
+<http://example.org/empleos/actividad/1> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA (PESCADOS)" .
+
+<http://example.org/empleos/actividad/10> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS, MARISCOS" .
+
+<http://example.org/empleos/actividad/100> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ALMUERZOS" .
+
+<http://example.org/empleos/actividad/101> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMPLETOS BEBIDAS" .
+
+<http://example.org/empleos/actividad/102> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA ITALIANA" .
+
+<http://example.org/empleos/actividad/103> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT EN GENERAL COMIDA" .
+
+<http://example.org/empleos/actividad/104> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/105> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/106> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/107> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PAPAS FRITAS BEBEIDAS POLLO ASADO" .
+
+<http://example.org/empleos/actividad/108> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ALMUERZOS" .
+
+<http://example.org/empleos/actividad/109> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CENAS, ALMUERZO, LICORESBEBIDAS" .
+
+<http://example.org/empleos/actividad/11> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/110> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/111> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "EVENTOS" .
+
+<http://example.org/empleos/actividad/112> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MENU" .
+
+<http://example.org/empleos/actividad/113> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COLACIONES, CHORRILLANAS" .
+
+<http://example.org/empleos/actividad/114> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/115> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "DISCOTEQUE" .
+
+<http://example.org/empleos/actividad/116> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "BAR CAFE" .
+
+<http://example.org/empleos/actividad/117> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SERVICIOS ALIMENTACION" .
+
+<http://example.org/empleos/actividad/118> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/119> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CONFECCION DE EMPANADAS" .
+
+<http://example.org/empleos/actividad/12> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SERV DE RESTAURANT" .
+
+<http://example.org/empleos/actividad/120> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAFES" .
+
+<http://example.org/empleos/actividad/121> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/122> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "FUENTE DE SODA" .
+
+<http://example.org/empleos/actividad/123> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE HELADOS" .
+
+<http://example.org/empleos/actividad/124> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PASTELERIA Y CAFETERIA" .
+
+<http://example.org/empleos/actividad/125> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PARRILLADA, ALMUERZOS" .
+
+<http://example.org/empleos/actividad/126> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "REST" .
+
+<http://example.org/empleos/actividad/127> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ALMUERZOS, CENAS" .
+
+<http://example.org/empleos/actividad/128> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/129> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SERVICIO DE MESA" .
+
+<http://example.org/empleos/actividad/13> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE ALMUERZOSY BEBIDAS" .
+
+<http://example.org/empleos/actividad/130> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "JUGOS Y CERVEZA" .
+
+<http://example.org/empleos/actividad/131> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA FRUTOS DEL PAIS" .
+
+<http://example.org/empleos/actividad/132> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAMEXICANA" .
+
+<http://example.org/empleos/actividad/133> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PIZZA,PASTA" .
+
+<http://example.org/empleos/actividad/134> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/135> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "DESAYUNO A PASAJEROS HOTEL" .
+
+<http://example.org/empleos/actividad/136> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/137> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CORTES FINOS DE CARNE A LAS BRAZAS" .
+
+<http://example.org/empleos/actividad/138> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ESP. PASTAS Y COMIDAS" .
+
+<http://example.org/empleos/actividad/139> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA ITALIANA" .
+
+<http://example.org/empleos/actividad/14> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANTE" .
+
+<http://example.org/empleos/actividad/140> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/141> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "BAR - KARAOKE. SHOW" .
+
+<http://example.org/empleos/actividad/142> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAFETERIA" .
+
+<http://example.org/empleos/actividad/143> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT, BANQUETERIA" .
+
+<http://example.org/empleos/actividad/144> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAFE" .
+
+<http://example.org/empleos/actividad/145> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/146> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "TRAGOS" .
+
+<http://example.org/empleos/actividad/147> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS" .
+
+<http://example.org/empleos/actividad/148> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PUBLICIDAD Y MARKETING" .
+
+<http://example.org/empleos/actividad/149> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/15> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE ALMUERZOS EMPANADAS Y BEBIDAS" .
+
+<http://example.org/empleos/actividad/150> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/151> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA ORIENTAL" .
+
+<http://example.org/empleos/actividad/152> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA MEXICANA" .
+
+<http://example.org/empleos/actividad/153> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SERVICIO DE MESA" .
+
+<http://example.org/empleos/actividad/154> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/155> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS MARISCOS Y CARNES" .
+
+<http://example.org/empleos/actividad/156> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAFE, PASTELERIA Y SANDWICH" .
+
+<http://example.org/empleos/actividad/157> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT BAR" .
+
+<http://example.org/empleos/actividad/158> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA COMIDA" .
+
+<http://example.org/empleos/actividad/159> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/16> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE ALMUERZOS" .
+
+<http://example.org/empleos/actividad/160> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "HOTEL" .
+
+<http://example.org/empleos/actividad/161> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS" .
+
+<http://example.org/empleos/actividad/162> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "REST" .
+
+<http://example.org/empleos/actividad/163> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "REST" .
+
+<http://example.org/empleos/actividad/164> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS MARISCOS COMIDAS" .
+
+<http://example.org/empleos/actividad/165> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MARISCOS Y PESCADOS" .
+
+<http://example.org/empleos/actividad/166> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "REST" .
+
+<http://example.org/empleos/actividad/167> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SALON DE TE RESTAURANT" .
+
+<http://example.org/empleos/actividad/168> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/169> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/17> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA O PARRILLADAS" .
+
+<http://example.org/empleos/actividad/170> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/171> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS" .
+
+<http://example.org/empleos/actividad/172> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT COMIDAS TIPICAS" .
+
+<http://example.org/empleos/actividad/173> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS MARISCOS" .
+
+<http://example.org/empleos/actividad/174> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MARISCOS PESCADOS" .
+
+<http://example.org/empleos/actividad/175> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA ALIMENTOS" .
+
+<http://example.org/empleos/actividad/176> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADO,MARISCOS,CARNES" .
+
+<http://example.org/empleos/actividad/177> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "GASTRONOMIA" .
+
+<http://example.org/empleos/actividad/178> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS EN GENERAL" .
+
+<http://example.org/empleos/actividad/179> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAMPING" .
+
+<http://example.org/empleos/actividad/18> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA-ORIENTAL" .
+
+<http://example.org/empleos/actividad/180> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAFETERIA" .
+
+<http://example.org/empleos/actividad/181> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/182> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/183> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/184> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CARNES PESCADOS" .
+
+<http://example.org/empleos/actividad/185> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/186> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT COMIDA GENERAL" .
+
+<http://example.org/empleos/actividad/187> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "EMPANADAS" .
+
+<http://example.org/empleos/actividad/188> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SALON DE TE RESTAURANT" .
+
+<http://example.org/empleos/actividad/189> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/19> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MARISCOS PESCADOS" .
+
+<http://example.org/empleos/actividad/190> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/191> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA,PASTELERIA,RESTAURANT" .
+
+<http://example.org/empleos/actividad/192> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "HOTEL" .
+
+<http://example.org/empleos/actividad/193> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA BEBIDAS ALCOHOLICAS" .
+
+<http://example.org/empleos/actividad/194> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/195> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PANQUEQUES DULECES Y SALADOS" .
+
+<http://example.org/empleos/actividad/196> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDOS DE CABAÑAS" .
+
+<http://example.org/empleos/actividad/197> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/198> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIOS DE ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/199> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDO CABAÑAS" .
+
+<http://example.org/empleos/actividad/2> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOR MARISCOS Y CARNES" .
+
+<http://example.org/empleos/actividad/20> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PIZERIA" .
+
+<http://example.org/empleos/actividad/200> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOTEL" .
+
+<http://example.org/empleos/actividad/201> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDO DE DEPARTAMENTOS" .
+
+<http://example.org/empleos/actividad/202> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/203> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIOS DE ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/204> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/205> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/206> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIOS DE ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/207> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIOS DE ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/208> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/209> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO TURISTICO" .
+
+<http://example.org/empleos/actividad/21> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/210> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/211> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS CABAÑAS" .
+
+<http://example.org/empleos/actividad/212> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/213> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/214> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDO CABAÑAS VERANEO" .
+
+<http://example.org/empleos/actividad/215> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/216> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/217> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIOS ALOJAMINETOS PARA LA MINERIA" .
+
+<http://example.org/empleos/actividad/218> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/219> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDO CABAÑAS" .
+
+<http://example.org/empleos/actividad/22> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOR MARISCOS CARNES" .
+
+<http://example.org/empleos/actividad/220> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDO CABAÑAS" .
+
+<http://example.org/empleos/actividad/221> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "RESTAURANTE VENTA COMIDA" .
+
+<http://example.org/empleos/actividad/222> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDO CABAÑAS" .
+
+<http://example.org/empleos/actividad/223> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/224> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "TURISMO" .
+
+<http://example.org/empleos/actividad/225> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "EVENTOS DE EMPRESAS ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/226> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "CABAÑAS ARRIENDO HABITACIONES" .
+
+<http://example.org/empleos/actividad/227> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "RESTAURANTE" .
+
+<http://example.org/empleos/actividad/228> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALIMENTACION" .
+
+<http://example.org/empleos/actividad/229> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOTELERIA" .
+
+<http://example.org/empleos/actividad/23> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "LICORES" .
+
+<http://example.org/empleos/actividad/230> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOSTAL" .
+
+<http://example.org/empleos/actividad/231> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/232> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOTELERIA" .
+
+<http://example.org/empleos/actividad/233> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/234> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDO DE CABAÑAS" .
+
+<http://example.org/empleos/actividad/235> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "CAMPING" .
+
+<http://example.org/empleos/actividad/236> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOSPEDAJE Y ALIMENTOS" .
+
+<http://example.org/empleos/actividad/237> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/238> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/239> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/24> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MARISCOS PESCADOS" .
+
+<http://example.org/empleos/actividad/240> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HABITACIONES" .
+
+<http://example.org/empleos/actividad/241> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/242> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/243> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIOS DE ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/244> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO Y RESTAURANT" .
+
+<http://example.org/empleos/actividad/245> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO, LAVANDERIA" .
+
+<http://example.org/empleos/actividad/246> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS A TURISTAS" .
+
+<http://example.org/empleos/actividad/247> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOSTERIA" .
+
+<http://example.org/empleos/actividad/248> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/249> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/25> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE PESCADOS MARISCOS" .
+
+<http://example.org/empleos/actividad/250> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO HUESPEDES" .
+
+<http://example.org/empleos/actividad/251> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "RESIDENCIAL" .
+
+<http://example.org/empleos/actividad/252> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO A TURISTAS" .
+
+<http://example.org/empleos/actividad/253> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOSTAL TURISTAS" .
+
+<http://example.org/empleos/actividad/254> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ARRIENDO DE HABITACIONES" .
+
+<http://example.org/empleos/actividad/255> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/256> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIO HABITACION" .
+
+<http://example.org/empleos/actividad/257> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/258> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/259> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOSPEDAJE" .
+
+<http://example.org/empleos/actividad/26> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMERCIALIZADORA DE MARISCOS Y PESCADOS" .
+
+<http://example.org/empleos/actividad/260> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/261> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/262> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/263> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/264> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALIMENTACION, DESAYUNO" .
+
+<http://example.org/empleos/actividad/265> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/266> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/267> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO TURISTICO" .
+
+<http://example.org/empleos/actividad/268> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HABITACIONES" .
+
+<http://example.org/empleos/actividad/269> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/27> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA" .
+
+<http://example.org/empleos/actividad/270> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HABITACIONES" .
+
+<http://example.org/empleos/actividad/271> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOTELERIA" .
+
+<http://example.org/empleos/actividad/272> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/273> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "REST" .
+
+<http://example.org/empleos/actividad/274> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/275> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/276> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HABITACIONES" .
+
+<http://example.org/empleos/actividad/277> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "TURISMO EMPRESA" .
+
+<http://example.org/empleos/actividad/278> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/279> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HOTELERIA" .
+
+<http://example.org/empleos/actividad/28> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MARISCOS PESCADOS" .
+
+<http://example.org/empleos/actividad/280> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIO DE ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/281> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/282> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HABITACIONES" .
+
+<http://example.org/empleos/actividad/283> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "RESTAURANTE" .
+
+<http://example.org/empleos/actividad/284> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/285> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "PENSION ESTUDIANTIL" .
+
+<http://example.org/empleos/actividad/286> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/287> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/288> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HABITACIONES" .
+
+<http://example.org/empleos/actividad/289> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO CON PENSION COMPLETA" .
+
+<http://example.org/empleos/actividad/29> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/290> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/291> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "HABITACIONES" .
+
+<http://example.org/empleos/actividad/292> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/293> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/294> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/295> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "CABAÑAS HABITACIONES" .
+
+<http://example.org/empleos/actividad/296> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "APART HOTEL" .
+
+<http://example.org/empleos/actividad/297> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/298> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/299> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIO DE ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/3> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/30> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/300> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/301> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/302> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALMUERZOS Y CENAS" .
+
+<http://example.org/empleos/actividad/303> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIOS ALOJAMIENTOS Y TURISTICO" .
+
+<http://example.org/empleos/actividad/304> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVICIO DE ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/305> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/306> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "CABAÑAS" .
+
+<http://example.org/empleos/actividad/307> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/308> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERV ALOJAMIENTO TURISTICO" .
+
+<http://example.org/empleos/actividad/309> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "ALOJAMIENTO TURISTICO" .
+
+<http://example.org/empleos/actividad/31> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/310> a schema1:Thing ;
+    schema1:category 2 ;
+    schema1:location "ALOJAMIENTO" ;
+    schema1:name "SERVCIOS DE ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/311> a schema1:Thing ;
+    schema1:category 3 ;
+    schema1:location "TRANSPORTE DE PASAJEROS VIA AEREA" ;
+    schema1:name "TRANP PASAJEROS" .
+
+<http://example.org/empleos/actividad/312> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRASLADO DE PASAJEROS" .
+
+<http://example.org/empleos/actividad/313> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "SERVICIOS LOS ANDES SAN FELIPE VALPARAISO" .
+
+<http://example.org/empleos/actividad/314> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANSPORTE PASAJERO" .
+
+<http://example.org/empleos/actividad/315> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANSPORTE DE PASAJEROS" .
+
+<http://example.org/empleos/actividad/316> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANSPORTE PASAJEROS" .
+
+<http://example.org/empleos/actividad/317> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "VENTA PASAJES" .
+
+<http://example.org/empleos/actividad/318> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "PASAJES" .
+
+<http://example.org/empleos/actividad/319> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANSPORTE TERRESTRE" .
+
+<http://example.org/empleos/actividad/32> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PUB RESTAURANT" .
+
+<http://example.org/empleos/actividad/320> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANS PERSONAL" .
+
+<http://example.org/empleos/actividad/321> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANSP" .
+
+<http://example.org/empleos/actividad/322> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "CARGA" .
+
+<http://example.org/empleos/actividad/323> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANSPORTE PASAJEROS" .
+
+<http://example.org/empleos/actividad/324> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANSPORTE PASAJEROS" .
+
+<http://example.org/empleos/actividad/325> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "VENTAPASAJES" .
+
+<http://example.org/empleos/actividad/326> a schema1:Thing ;
+    schema1:category 4 ;
+    schema1:location "TRANSPORTE DE PASAJEROS POR CARRETERA" ;
+    schema1:name "TRANSP. PERSONAS" .
+
+<http://example.org/empleos/actividad/327> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "CURCUITOS DE TRAQQUIN" .
+
+<http://example.org/empleos/actividad/328> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "FOMENTAR EL TURISMO" .
+
+<http://example.org/empleos/actividad/329> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "AGENCIA DE VIAJES" .
+
+<http://example.org/empleos/actividad/33> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MARISCOS, CARNES, TRAGOS" .
+
+<http://example.org/empleos/actividad/330> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "PRODUCTOR PAQUETES TURISTICOS DENTRO Y FUERA DEL P" .
+
+<http://example.org/empleos/actividad/331> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "CAMBIO DE MONEDA EXTRANJERA" .
+
+<http://example.org/empleos/actividad/332> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "PROG.TURISTICOS" .
+
+<http://example.org/empleos/actividad/333> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "TRANSPORTE" .
+
+<http://example.org/empleos/actividad/334> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "VIAJES Y TOUR" .
+
+<http://example.org/empleos/actividad/335> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "BOLETOS DE TRANSPORTES AEREOS , TERRESTRES, FLUVIA" .
+
+<http://example.org/empleos/actividad/336> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "VENTA DE PASAJES" .
+
+<http://example.org/empleos/actividad/337> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "CAMBIOS" .
+
+<http://example.org/empleos/actividad/338> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "CITYTOUR" .
+
+<http://example.org/empleos/actividad/339> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "VIAJES Y TOUR" .
+
+<http://example.org/empleos/actividad/34> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "GASTRONIMICO, PESCADO, MARISCOS" .
+
+<http://example.org/empleos/actividad/340> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "PASAJE AEREO" .
+
+<http://example.org/empleos/actividad/341> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "MUESTRA CULTURAL ETNICA" .
+
+<http://example.org/empleos/actividad/342> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "AGENCIA DE VIAJES" .
+
+<http://example.org/empleos/actividad/343> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "VENTA PASAJES" .
+
+<http://example.org/empleos/actividad/344> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "VIAJES" .
+
+<http://example.org/empleos/actividad/345> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "VIAJES TURISTICOS" .
+
+<http://example.org/empleos/actividad/346> a schema1:Thing ;
+    schema1:category 5 ;
+    schema1:location "AGENCIA DE VIAJE" ;
+    schema1:name "ORGANIZACION DE TOUR PHPTPTURISMO" .
+
+<http://example.org/empleos/actividad/347> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIO DE BUSES Y TAXIS DE TURISMO" ;
+    schema1:name "TRANSPORTAR PERSONAS" .
+
+<http://example.org/empleos/actividad/348> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIO DE BUSES Y TAXIS DE TURISMO" ;
+    schema1:name "TRANSPORTE ESCOLAR, PASAJEROS, TURISMO" .
+
+<http://example.org/empleos/actividad/349> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIO DE BUSES Y TAXIS DE TURISMO" ;
+    schema1:name "TRANSP. PERSONAS" .
+
+<http://example.org/empleos/actividad/35> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/350> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TRANSPORTE DE PASAJEROS VIA MARITIMA" ;
+    schema1:name "NAVEGACION VELAS Y MOTOR" .
+
+<http://example.org/empleos/actividad/351> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIOS CULTURALES" ;
+    schema1:name "SOUVENIR TURISMO PARA PARA PROMOCION EMPRESAS" .
+
+<http://example.org/empleos/actividad/352> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIOS CULTURALES" ;
+    schema1:name "MUSEO EDUCATIVO" .
+
+<http://example.org/empleos/actividad/353> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "VENTA DE ARTESANIA" ;
+    schema1:name "VENTA DE ARTESANIA" .
+
+<http://example.org/empleos/actividad/354> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "VENTA DE ARTESANIA" ;
+    schema1:name "ARTESANIAS" .
+
+<http://example.org/empleos/actividad/355> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "VENTA DE ARTESANIA" ;
+    schema1:name "LAVANDERIA" .
+
+<http://example.org/empleos/actividad/356> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "SERVICIOS DE GUIA TURISTICO" .
+
+<http://example.org/empleos/actividad/357> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "GUIAS TURISTICAS" .
+
+<http://example.org/empleos/actividad/358> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "TRANSPORTE DE TRABAJADORES PERSONAS" .
+
+<http://example.org/empleos/actividad/359> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "ORGANIZ DE PAQUETES TURISTICOS" .
+
+<http://example.org/empleos/actividad/36> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA (MARISCOS)" .
+
+<http://example.org/empleos/actividad/360> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "CONSERVACION EDUCACION INVESTIGACION" .
+
+<http://example.org/empleos/actividad/361> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "GUIA DE TURISMO" .
+
+<http://example.org/empleos/actividad/362> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "GUIAS DE TURISMO" .
+
+<http://example.org/empleos/actividad/363> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "TOUR" .
+
+<http://example.org/empleos/actividad/364> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "PRESENTACION DEL TRABAJO DE LA AGRICULTURA" .
+
+<http://example.org/empleos/actividad/365> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIO DE ESPARCIMIENTO" ;
+    schema1:name "EXCURSIONES GUIADAS" .
+
+<http://example.org/empleos/actividad/366> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "TURISMO AVENTURA Y NAVEGACION A VELA Y MOTOR" .
+
+<http://example.org/empleos/actividad/367> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "ARRIENDO DE CABALLOS" .
+
+<http://example.org/empleos/actividad/368> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "CLASES DE SURF" .
+
+<http://example.org/empleos/actividad/369> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "CURSOS DE FLORIFAUNA CABALLERIA Y P." .
+
+<http://example.org/empleos/actividad/37> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SERVICIOS DE RESTAURANT" .
+
+<http://example.org/empleos/actividad/370> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "PAINBOLL" .
+
+<http://example.org/empleos/actividad/371> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "VIAJES" .
+
+<http://example.org/empleos/actividad/372> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "ARRIENDO DE VEHICULOS" ;
+    schema1:name "ARRIENDO VEHICULOS" .
+
+<http://example.org/empleos/actividad/373> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "GUIA DE TURISMO" .
+
+<http://example.org/empleos/actividad/374> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "GUIA DE TURISMO" .
+
+<http://example.org/empleos/actividad/375> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "CABALGATAS LOGISTICA DE ALTA MONTAÑA Y" .
+
+<http://example.org/empleos/actividad/376> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "ALOJAMIENTOS" .
+
+<http://example.org/empleos/actividad/377> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "CANOPY" .
+
+<http://example.org/empleos/actividad/378> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "ARRIENDO DE VEHICULOS" ;
+    schema1:name "VENTA" .
+
+<http://example.org/empleos/actividad/379> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TRANSPORTE DE PASAJEROS" ;
+    schema1:name "SERV. TRANSPORTES" .
+
+<http://example.org/empleos/actividad/38> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "GASTRONOMIA" .
+
+<http://example.org/empleos/actividad/380> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANTE" .
+
+<http://example.org/empleos/actividad/381> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIOS CULTURALES" ;
+    schema1:name "FERIA COSTUMBRISTA" .
+
+<http://example.org/empleos/actividad/382> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIOS DE ESPARCIMIENTO" ;
+    schema1:name "CABALGATAS" .
+
+<http://example.org/empleos/actividad/383> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "VENTA ARTICULOS TURISTICOS" .
+
+<http://example.org/empleos/actividad/384> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "GUIA DE TURISMO" ;
+    schema1:name "AT.PERSONAS" .
+
+<http://example.org/empleos/actividad/385> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIO DE ESPARCIMIENTO" ;
+    schema1:name "EVENTOS" .
+
+<http://example.org/empleos/actividad/386> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "ENTRETENCIONES" .
+
+<http://example.org/empleos/actividad/387> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "TURISMO AVENTURA" ;
+    schema1:name "ARRIENDO BICICLETAS" .
+
+<http://example.org/empleos/actividad/388> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "SERVICIOS DE ESPARCIMIENTO" ;
+    schema1:name "SERVICIO ESPARCIMIENTOS" .
+
+<http://example.org/empleos/actividad/389> a schema1:Thing ;
+    schema1:category 6 ;
+    schema1:location "ARRIENDO DE VEHICULOS" ;
+    schema1:name "SERVICIOS DE TURISMO" .
+
+<http://example.org/empleos/actividad/39> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA PIZZA" .
+
+<http://example.org/empleos/actividad/4> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/40> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA COMIDA" .
+
+<http://example.org/empleos/actividad/41> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA COMIDA" .
+
+<http://example.org/empleos/actividad/42> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS" .
+
+<http://example.org/empleos/actividad/43> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA CHILENA CON EXELENCIA" .
+
+<http://example.org/empleos/actividad/44> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANTE Y FUENTE DE SODA" .
+
+<http://example.org/empleos/actividad/45> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "EVENTOS" .
+
+<http://example.org/empleos/actividad/46> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "HOTEL" .
+
+<http://example.org/empleos/actividad/47> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANTE VENTA COMIDA" .
+
+<http://example.org/empleos/actividad/48> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA COMIDA" .
+
+<http://example.org/empleos/actividad/49> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANTE" .
+
+<http://example.org/empleos/actividad/5> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE COMIDA" .
+
+<http://example.org/empleos/actividad/50> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANTE" .
+
+<http://example.org/empleos/actividad/51> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA COMIDA" .
+
+<http://example.org/empleos/actividad/52> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ARRIENDO DE HABITACIONES" .
+
+<http://example.org/empleos/actividad/53> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MARISCOS Y PESCADOS" .
+
+<http://example.org/empleos/actividad/54> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/55> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS Y SANWICHERIA ETC" .
+
+<http://example.org/empleos/actividad/56> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA RESTAURANTE" .
+
+<http://example.org/empleos/actividad/57> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "APART HOTEL" .
+
+<http://example.org/empleos/actividad/58> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA TIPICA CHILENA" .
+
+<http://example.org/empleos/actividad/59> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA TIPICA CHILENA" .
+
+<http://example.org/empleos/actividad/6> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VERNTA DE BEBIDAS ALCOHOLICAS" .
+
+<http://example.org/empleos/actividad/60> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA TIPICA" .
+
+<http://example.org/empleos/actividad/61> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTORANTE" .
+
+<http://example.org/empleos/actividad/62> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SALA DE EVENTOS" .
+
+<http://example.org/empleos/actividad/63> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTORANT" .
+
+<http://example.org/empleos/actividad/64> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAFE" .
+
+<http://example.org/empleos/actividad/65> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SERV COMIDA P LLEVAR" .
+
+<http://example.org/empleos/actividad/66> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "BEBIDAS ALCOHOLICAS Y BEBIDAS DE FANTASIA" .
+
+<http://example.org/empleos/actividad/67> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ALOJAMIENTO" .
+
+<http://example.org/empleos/actividad/68> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ALMUERZOS" .
+
+<http://example.org/empleos/actividad/69> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS TIPICAS CHILENAS" .
+
+<http://example.org/empleos/actividad/7> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE COMIDA" .
+
+<http://example.org/empleos/actividad/70> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT COMIDAS TIPICAS CHILENAS" .
+
+<http://example.org/empleos/actividad/71> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/72> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/73> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADO Y MARISCOS" .
+
+<http://example.org/empleos/actividad/74> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/75> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/76> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PASTELERIA" .
+
+<http://example.org/empleos/actividad/77> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS TIPICAS Y TRAPOS" .
+
+<http://example.org/empleos/actividad/78> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA EN GENERAL" .
+
+<http://example.org/empleos/actividad/79> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT HOTEL BOUTEQUE" .
+
+<http://example.org/empleos/actividad/8> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA CHILENA E INTERNACIONAL" .
+
+<http://example.org/empleos/actividad/80> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDA TIPICA" .
+
+<http://example.org/empleos/actividad/81> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS TIPICAS CHILENAS" .
+
+<http://example.org/empleos/actividad/82> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAFETERIA" .
+
+<http://example.org/empleos/actividad/83> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "SANDWICH BEBEIDAS CAFE" .
+
+<http://example.org/empleos/actividad/84> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "MARISCOS" .
+
+<http://example.org/empleos/actividad/85> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS" .
+
+<http://example.org/empleos/actividad/86> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS CASERAS" .
+
+<http://example.org/empleos/actividad/87> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "FUENTE SODA Y CERVECERIA" .
+
+<http://example.org/empleos/actividad/88> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT" .
+
+<http://example.org/empleos/actividad/89> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "ALOJAMINETO" .
+
+<http://example.org/empleos/actividad/9> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS MARISCOS" .
+
+<http://example.org/empleos/actividad/90> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT COMIDAS" .
+
+<http://example.org/empleos/actividad/91> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CARNES" .
+
+<http://example.org/empleos/actividad/92> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "PESCADOS Y MARISCOS" .
+
+<http://example.org/empleos/actividad/93> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COCTELERA CERVEZAS" .
+
+<http://example.org/empleos/actividad/94> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "CAFETERIA PASTELERIA" .
+
+<http://example.org/empleos/actividad/95> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS" .
+
+<http://example.org/empleos/actividad/96> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "RESTAURANT Y COMIDAS BEBIDAS ALMUERZOS" .
+
+<http://example.org/empleos/actividad/97> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "HELADOS BEBIDAS" .
+
+<http://example.org/empleos/actividad/98> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "VENTA DE CAFETERIA" .
+
+<http://example.org/empleos/actividad/99> a schema1:Thing ;
+    schema1:category 1 ;
+    schema1:location "ALIMENTACION" ;
+    schema1:name "COMIDAS" .
+
